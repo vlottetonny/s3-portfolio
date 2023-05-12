@@ -1,6 +1,16 @@
 # Software semester 3 portfolio
 Teun Hurkmans, S3-DB01 van Fontys Eindhoven 
 
+## Belangrijke linkjes
+  ### Het groepsproject
+  - [Git repository voor de frontend](toevoegen)
+  - [Git repository voor de backend](toevoegen)
+  ### Het indiviueele project
+  - [Git repository voor de frontend](https://github.com/vlottetonny/s3-individueel-Frontend)
+  - [Git repository voor de backend](https://github.com/vlottetonny/s3-individueel-Backend)
+
+---
+
 ## Table of contents
 - [1. Introductie](#1-introductie)
 - [2. Leeruitkomsten](#2-leeruitkomsten)
