@@ -8,6 +8,8 @@ Teun Hurkmans, S3-DB01 van Fontys Eindhoven
   ### Het indiviueele project
   - [Git repository voor de frontend](https://github.com/vlottetonny/s3-individueel-Frontend)
   - [Git repository voor de backend](https://github.com/vlottetonny/s3-individueel-Backend)
+  ### Het indiviueele project
+  - [Git repository voor het portfolio](https://github.com/vlottetonny/s3-portfolio/tree/main)
 
 ---
 
