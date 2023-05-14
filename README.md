@@ -17,10 +17,11 @@ Teun Hurkmans, S3-DB01 van Fontys Eindhoven
 - [1. Introductie](#1-introductie)
 - [2. Leeruitkomsten](#2-leeruitkomsten)
 - [3. Onderzoeken](#3-onderzoeken)
-  - [3.1 Culturele verschillen](#31-culturele-verschillen)
-  - [3.2 Ethiek](#32-ethiek)
-- [4. Het groepsproject (Swipper)](#4-het-groepsproject-swipper)
-- [5. Het individuele project (Housekeeper)](#5-het-individuele-project-housekeeper)
+  - [3.1 ORM keuzestress](#31-orm-keuzestress)
+  - [3.2 Culturele verschillen](#32-culturele-verschillen)
+  - [3.3 Ethiek](#33-ethiek)
+- [4. Het groepsproject: Swipper](#4-het-groepsproject-swipper)
+- [5. Het individuele project: Housekeeper](#5-het-individuele-project-housekeeper)
 - [6. Zelfreflectie](#6-zelfreflectie)
   - [6.1 Wat heb ik geleerd](#61-wat-heb-ik-geleerd)
   - [6.2 Wat ging er goed](#62-wat-ging-er-goed)
@@ -48,9 +49,27 @@ Kleine disclaimer, dit is vertaald door chatGPT.
 
 ## 3. Onderzoeken
 
-### 3.1 Culturele verschillen
+### 3.1 ORM Keuzestress
 
-### 3.2 Ethiek
+Geachte lezer,
+
+Vandaag schrijf ik dit onderzoeksrapport om twee redenen. Ten eerste ben ik vanuit mijn studie verplicht om een aantal van deze onderzoeken uit te voeren. Maar er is een tweede, en misschien wel belangrijkere, reden: ik heb geen idee wat een ORM is. Hoewel ik weet waar de afkorting voor staat (Object Relational Mapping framework), kan ik niet precies uitleggen wat het doet. Maar dat gaat veranderen, want ik ga het nu voor jullie uitzoeken.
+
+Dus wat is een ORM? Stel je voor dat je een tekening moet gaan maken, maar als de ware kleurplaat fanaat die je bent schiet je gelijk in de stress. Dus nu heb je een blanco vel papier voor je en zou je elk detail zelf moeten tekenen en inkleuren om het eindresultaat te krijgen. Maar wat als iemand je al een prachtige tekening aanbiedt, waar de lijnen al zijn getrokken en de vlakken al zijn verdeeld? Dan hoef je alleen maar de kleuren in te vullen en voilà, je hebt een geweldige tekening gemaakt! Dat is wat een ORM doet, maar dan met databases en objecten. Het vertaalt de data in de database naar objecten die je kunt gebruiken in je code, zonder dat je zelf SQL-query's hoeft te schrijven. Pittig ziek als je het mij vraagt.
+
+Oke, nu dat duidelijk is, moet ik het gaan toepassen op mijn eigen project. Voordat ik ga bepalen welke ORM het beste bij mijn project past, wil ik eerst wat informatie delen over mijn project. Ik ben bezig met het maken van een react native app voor mijn individuele project en ik gebruik daarvoor een backend API. Deze API is geschreven in TypeScript en maakt gebruik van het ExpressJS-framework. De database die ik gebruik is een SQL Server-database die ik host op Azure. Het is dus belangrijk om te kijken welke ORM's geschikt zijn voor deze combinatie van API en database.
+
+Dit zijn de beste opties die ik op het internet heb gevonden: <br>
+**TypeORM** - Dit is een bekend ORM-framework dat goed werkt met TypeScript en ExpressJS. Het is super gebruiksvriendelijk en ondersteunt verschillende databases, waaronder SQL Server. <br/>
+**Sequelize** - Dit is een sterk ORM-framework dat ondersteuning biedt voor TypeScript en verschillende databases, zoals SQL Server. Het heeft ook geavanceerde functies voor het beheren van de relaties tussen tabellen. <br/>
+**Prisma** - Dit is een modern ORM-framework dat werkt met TypeScript en ExpressJS. Het heeft een intuïtieve API en maakt typeveilige code aan op basis van jouw database schema. <br/>
+
+
+
+
+### 3.2 Culturele verschillen
+
+### 3.3 Ethiek
 
 ## 4. Het groepsproject (Swipper)
 
