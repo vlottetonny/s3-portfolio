@@ -29,7 +29,7 @@ Teun Hurkmans, S3-DB01 van Fontys Eindhoven
 
 ## 1. Introductie
 
-HEY HOI, Leuk dat je mijn software portfolio bezoekt! Op dit moment zit ik in mijn derde semester bij Fontys ICT & Software Engineering. Hier heb ik de nodige kennis en vaardigheden opgedaan, die ik graag met je deel via mijn recente werk. Denk hierbij aan onderzoeksrapporten, zowel individuele als groepsprojecten, en reflecties op mijn persoonlijke leerproces. Ik hoop dat je het interessant vindt om hier doorheen te bladeren. 
+HEY HOI, Leuk dat je mijn software portfolio bezoekt! Op dit moment zit ik in mijn derde semester bij Fontys ICT & Software Engineering. Hier heb ik de nodige kennis en vaardigheden opgedaan, die ik graag met je deel via mijn recente werk. Denk hierbij aan onderzoeksrapporten, zowel individuele als groepsprojecten, en reflecties op mijn persoonlijke leerproces. Ik hoop dat je het interessant vindt om hier doorheen te bladeren. <br/>
 Verder ook alvast een kleine shout-out naar mijn docenten Samuil Angelov en Jean Paul Ligthart, mogen jullie het een voldoende waard vinden. XD
 
 ## 2. Leeruitkomsten
