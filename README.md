@@ -20,8 +20,13 @@ Teun Hurkmans, S3-DB01 van Fontys Eindhoven
   - [3.1 De Grote ORM Showdown](#31-de-grote-orm-showdown)
   - [3.2 Culturele verschillen](#32-culturele-verschillen)
   - [3.3 Ethiek](#33-ethiek)
+  - [3.4 Veiligheid in webdevelopment](#34-veiligheid-in-webdevelopment)
 - [4. Het groepsproject: Swipper](#4-het-groepsproject-swipper)
 - [5. Het individuele project: Housekeeper](#5-het-individuele-project-housekeeper)
+  - [5.1 De aanpak](#51-de-aanpak)
+  - [5.2 De stackkeuze](#52-de-stackkeuze)
+  - [5.3 De uitvoering](#53-de-uitvoering)
+  - [5.4 Gebruikers testen](#54-gebruikers-testen)
 - [6. Zelfreflectie](#6-zelfreflectie)
   - [6.1 Wat heb ik geleerd](#61-wat-heb-ik-geleerd)
   - [6.2 Wat ging er goed](#62-wat-ging-er-goed)
@@ -51,7 +56,9 @@ Kleine disclaimer, dit is vertaald door chatGPT.
 
 ### 3.1 De Grote ORM Showdown
 
-Geachte lezer, WELKOM! Welkom bij de grote ORM Showdown. Het onderzoeksrapport waar ORM's de grote hoofdprijs kunnen winnen; Gemplementeerd worden in mijn project. Woehoe! Laten we beginnen!
+Geachte lezer, deze disclaimer schrijf ik om je even voor te bereiden op het onderzoek rapport dat je zo gaat lezen. Ik had namelijk een schandalige portie geen zin om hier aan te beginnen, dus ik heb het maar een beetje opgeleukt. Ik hoop dat je het leuk vindt, en anders heb je pech. 
+
+WELKOM! Welkom bij de grote ORM Showdown. Het onderzoeksrapport waar ORM's de grote hoofdprijs kunnen winnen; Gemplementeerd worden in mijn project. Woehoe! Laten we beginnen!
 
 Eventjes het zakelijke, ik schrijf dit onderzoeksrapport met twee redenen. Ten eerste ben ik vanuit mijn studie verplicht om een aantal van deze onderzoeken uit te voeren. Maar er is een tweede, en misschien wel belangrijkere, reden: ik heb geen duidelijk beeld van wat een ORM is. Hoewel ik weet waar de afkorting voor staat (Object Relational Mapping framework), kan ik niet precies uitleggen wat het doet. Maar dat gaat veranderen, want ik ga het nu voor jullie uitzoeken.
 
@@ -95,13 +102,41 @@ Ook is het zo dat de Finse studenten een andere taal spreken dan wij. Dit kan er
 ** Hoe ga ik om met deze culturele verschillen? ** <br/>
 Zoals in de alinea's hierboven eigenlijk al beschreven staat is het belangrijkste dat we alles gewoon een tikje extra duidelijk met elkaar bespreken. <br/> Communicatie is key. <br/>
 
-
-
 ### 3.3 Ethiek
+
+### 3.4 Veiligheid in webdevelopment
+
 
 ## 4. Het groepsproject (Swipper)
 
 ## 5. Het individuele project (Housekeeper)
+
+Voor mijn individuele project in semester drie heb ik gekozen voor het maken van een app die kan dienen als een groepsplanner voor je huishouden. Het idee is dat je een groep/huishouden aanmaakt met je huisgenoten en dat je dan klusjes en dergelijke kunt toevoegen zodat je huisgenoten een idee hebben van wat er gebeuren moet. Deze taken kunnen dan door de groepsleden worden opgepakt. <br/>
+Naast taken kunnen gebruikers ook een gezamelijke boodschappenlijst bijhouden, een gezamelijke kalender bijhouden en briefjes achterlaten voor hun huisgenoten <br/>
+
+### 5.1 De aanpak
+Voordat ik kon beginnen aan het maken van de app moest ik een aantal dingen uitzoeken. Zo bijvoorveeld waar ik mijn voortgang en planning bij ging houden. Hier heb ik voor Trello gekozen. <br/>
+Ik heb moeten nadenken over hoe ik de applicatie voor me zag. Hierbij heb ik me scenarios voorgesteld waarin ik persoonlijk de app zou gebruiken. Met deze scenarios in mijn achterhoofd heb de keuze voor een mobiele applicatie gemaakt. Voor het doel wat de app heeft leek het me onwaarschijnlijk dat ik er telkens voor naar een internet adress zou willen surfen. <br/>
+Hierna heb ik een aantal schetsen gemaakt van hoe ik de app voor me zag. Deze schetsen heb ik vervolgens in figma gezet. Toen dat af was ben ik gaan nadenken over mijn stackkeuze. <br/>
+
+### 5.2 De stackkeuze
+
+#### 5.2.1 Frontend
+Voor mijn Frontend heb ik gekozen voor React-native in combinatie met Expo. Ik heb hiervoor gekozen omdat ik interesse had in het leren van React, maar omdat ik al was uitgekomen op een mobiele app leek het me een goed idee om React-native te leren. <br/>
+Daar komt ook bij kijken dat ik me dit semester wilde focussen op het leren van Typescript. React-native is een framework waarmee ik dus twee vliegen in één klap kon slaan.  <br/>
+
+#### 5.2.2 Backend
+Voor mijn backend heb ik mijn keuze in eerste instantie laten lijden door het eerder genoemde verlangen om Typescript te leren. Ik heb gekozen voor een nodejs project met Typescript en Express. Express heb ik erbij genomen, omdat dit in een fireship tutorial werd gebruikt die ik aan het volgen was. En het me goed beviel. Ook moest ik dit semester een ORM kiezen. Zoals [eerder in dit portfolio](#31-de-grote-orm-showdown) te lezen is, is mijn keuze gevallen op Prisma ORM. Waarom staat in het onderzoeksrapport.<br/>
+De backend is een REST API die CI/CD heeft met behulp van Github Actions. De API is gehost op Microsoft Azure. <br/> 
+
+#### 5.2.3 Database
+Voor mijn database heb ik gekozen voor een SQL database. Ik heb hiervoor gekozen omdat ik hier al ervaring mee had en van eerdere projecten, maar ook omdat we dit semester gebruik moeten maken van een ORM en dus een relational database een vereiste is. <br/>
+Nu ik eenmaal zo'n ORM heb gebruikt ga ik nooit meer met de hand SQL queries schrijven... Hoop ik... <br/>
+De Database is gehost op Microsoft Azure. 
+
+### 5.3 De uitvoering
+
+### 5.4 Gebruikers testen
 
 ## 6. Zelfreflectie
 
