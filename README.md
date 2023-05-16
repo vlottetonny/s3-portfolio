@@ -72,6 +72,31 @@ Ik denk dat ik me zo voldoende heb geinformeerd op het gebied van orm's en voel 
 
 ### 3.2 Culturele verschillen
 
+Voor iedere software engineer is het belangrijk om culturele verschillen te begrijpen. Dit is omdat je vaak samenwerkt met mensen uit andere landen en culturen. Het is belangrijk om te weten hoe je met deze mensen moet omgaan, zodat je een goede samenwerking kunt hebben. In dit onderzoek zal ik kijken naar de culturele verschillen tussen Nederland en Finland. Finland omdat het groepsproject in samenwerking met de Finse Oulu Universiteit was. 
+
+** Wat is cultuur? ** <br/>
+Cultuur is een verzameling van normen en waarden die een groep mensen met elkaar delen. Deze normen en waarden bepalen hoe mensen zich gedragen en hoe ze met elkaar omgaan. Cultuur is dus een belangrijk onderdeel van het leven van mensen. Het bepaalt hoe ze zich gedragen en hoe ze met elkaar omgaan.
+
+** Wat zijn de culturele verschillen tussen Nederland en Finland? ** <br/>
+Er zijn veel culturele verschillen tussen Nederland en Finland. Op basis van de samenwerking met de Oulu-studenten en de ervaring die ik heb opgedaan van de reis naar Finland aan de start van het project zet ik hier de belangrijkste verschillen op een rij: <br/>
+- Nederlanders zijn directer dan Finnen. Nederlanders zeggen wat ze denken en voelen. Finnen zijn meer terughoudend en zeggen niet altijd wat ze denken en voelen. <br/>
+- Nederlanders zijn meer individualistisch dan Finnen. Nederlanders zijn meer gericht op hun eigen leven en hun eigen doelen. Finnen zijn meer gericht op het grotere geheel en de gemeenschap.<br/>
+- Nederlanders zijn meer open dan Finnen. Nederlanders zijn meer open over hun gevoelens en emoties. Finnen zijn meer gesloten over hun gevoelens en emoties. <br/>
+
+** Wat zijn de gevolgen van deze culturele verschillen? ** <br/>
+Deze culturele verschillen kunnen leiden tot misverstanden en conflicten. Als je niet weet hoe je met deze verschillen moet omgaan, kan dit leiden tot misverstanden en conflicten. Het is dus belangrijk om te weten hoe je met deze verschillen moet omgaan. <br/>
+Bijvoorbeeld het minder direct zijn van finnen kan er voor zorgen dat ze niet altijd voor hun eigen visie opkomen tijdens het plannen van de appstructuur en dergelijke. Waar je voor uit moet kijken is dat je niet een plan trekt waar een gedeelte van je projectgroep het niet mee eens is. Dan zul je geen optimaal resultaat behalen. <br/>
+Ook zou het natuurlijk kunnen dat bepaalde dingen waar wij van uit gaan voor hun helemaal niet vanzelfsprekend zijn of andersom, daarom is het belangrijk dat alle plannen duidelijk met elkaar besproken worden. <br/>
+
+** Andere culturele verschillen om rekening mee te houden ** <br/>
+Op een ietwat ander niveau zijn en praktische verschillen waar je rekening mee moet houden. Zo is het in Finland bijvoorbeeld een uur later dan in Nederland. Dit kan er voor zorgen dat je niet altijd op hetzelfde moment kunt overleggen. <br/>
+Ook is het zo dat de Finse studenten een andere taal spreken dan wij. Dit kan er voor zorgen dat je niet altijd alles goed begrijpt. Uiteraard overleggen we in het Engels, maar het is niet onvoorstelbaar dat er ooit details verloren raken in de vertaling. <br/>
+
+** Hoe ga ik om met deze culturele verschillen? ** <br/>
+Zoals in de alinea's hierboven eigenlijk al beschreven staat is het belangrijkste dat we alles gewoon een tikje extra duidelijk met elkaar bespreken. <br/> Communicatie is key. <br/>
+
+
+
 ### 3.3 Ethiek
 
 ## 4. Het groepsproject (Swipper)
