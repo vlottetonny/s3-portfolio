@@ -105,6 +105,7 @@ Zoals in de alinea's hierboven eigenlijk al beschreven staat is het belangrijkst
 ### 3.3 Ethiek
 
 ### 3.4 Veiligheid in webdevelopment
+Voor het maken van een maken van mijn applicatie is het belangrijk om 
 
 
 ## 4. Het groepsproject (Swipper)
@@ -135,6 +136,55 @@ Nu ik eenmaal zo'n ORM heb gebruikt ga ik nooit meer met de hand SQL queries sch
 De Database is gehost op Microsoft Azure. 
 
 ### 5.3 De uitvoering
+
+### User stories
+**Als een user wil ik een "Household" kunnen aanmaken zodat ik een groep kan maken met mijn huisgenoten.** <br/>
+Benodigd voor deze user story: <br/>
+- Een frontend pagina waar een user een account aan kan maken. <br/>
+- Een backend endpoint om een user aan te maken. <br/>
+- Een frontend pagina waar een user een household aan kan maken. <br/>
+- Een backend endpoint om een household aan te maken. <br/>
+- Een frontend pagina waar een user een household kan joinen. <br/>
+- Een backend endpoint om een user aan een household toe te voegen. <br/>
+
+**Als een user wil ik een gezamenlijke grocery list bij kunnen houden.** <br/>
+Benodigd voor deze user story: 
+- Een frontend pagina waar de user een grocery list te zien krijgt. <br/>
+- Een frontend venster waar de user een item kan toevoegen aan de grocery list kan toevoegen. <br/>
+- Een backend endpoint om een item aan de grocery list toe te voegen. <br/>
+- Een frontend knop waar de user een item kan markeren "als in het mandje". <br/>
+- Een frontend knop waar de user de grocery list kan markeren als gekocht. <br/>
+- Een backend endpoint om de grocery list te markeren als gekocht. <br/>
+
+**Als een user wil ik een lijst kunnen zien van eerdere grocery lists van mijn huishouden.** <br/>
+Benodigd voor deze user story: <br/>
+- Een frontend pagina waar de user een lijst van eerdere grocery lists te zien krijgt. <br/>
+- Een backend endpoint om een lijst van eerdere grocery lists op te halen. <br/>
+
+**Als een user wil ik een gezamenlijke kalender bij kunnen houden.** <br/>
+Benodigd voor deze user story: <br/>
+- Een frontend pagina waar de user een kalender te zien krijgt. <br/>
+- Een backend endpoint om kalender events op te halen.<br/>
+- Een frontend venster om kalender events aan te maken. <br/>
+- Een backend endpoint om kalender events aan te maken. <br/>
+
+**Als een user wil ik een gezamenlijke todo list bij kunnen houden.** <br/>
+Benodigd voor deze user story: <br/>
+- Een frontend pagina waar de user een todo list te zien krijgt. <br/>
+- Een backend endpoint om todo items op te halen. <br/>
+- Een frontend venster om todo items aan te maken. <br/>
+- Een backend endpoint om todo items aan te maken. <br/>
+- Een frontend knop om todo items te markeren als gedaan. <br/>
+- Een backend endpoint om todo items te markeren als gedaan. <br/>
+
+**Als een user wil ik een gezamenlijke notitie lijst bij kunnen houden.**<br/>
+Benodigd voor deze user story: <br/>
+- Een frontend pagina waar de user een notitie lijst te zien krijgt. <br/>
+- Een backend endpoint om notitie items op te halen. <br/>
+- Een frontend venster om notitie items aan te maken. <br/>
+- Een backend endpoint om notitie items aan te maken. <br/>
+
+### hier moet de rest komen
 
 ### 5.4 Gebruikers testen
 
