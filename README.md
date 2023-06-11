@@ -3,8 +3,8 @@ Teun Hurkmans, S3-DB01 van Fontys Eindhoven
 
 ## Belangrijke linkjes
   ### Het groepsproject
-  - [Git repository voor de frontend](toevoegen)
-  - [Git repository voor de backend](toevoegen)
+  - [Git repository voor de frontend](https://github.com/einstein43/swipper_frontend)
+  - [Git repository voor de backend](https://github.com/Exurbia404/SwipperASP)
   ### Het individuele project
   - [Git repository voor de frontend](https://github.com/vlottetonny/s3-individueel-Frontend)
   - [Git repository voor de backend](https://github.com/vlottetonny/s3-individueel-Backend)
@@ -19,7 +19,8 @@ Teun Hurkmans, S3-DB01 van Fontys Eindhoven
 - [3. Onderzoeken](#3-onderzoeken)
   - [3.1 De Grote ORM Showdown](#31-de-grote-orm-showdown)
   - [3.2 Culturele verschillen](#32-culturele-verschillen)
-  - [3.3 Veiligheid in webdevelopment](#33-veiligheid-in-webdevelopment)
+  - [3.3 Security](#33-security)
+  - [3.4 Agile methodes](#34-agile-methodes)
 - [4. Het groepsproject: Swipper](#4-het-groepsproject-swipper)
 - [5. Het individuele project: Housekeeper](#5-het-individuele-project-housekeeper)
   - [5.1 De aanpak](#51-de-aanpak)
@@ -53,58 +54,26 @@ Kleine disclaimer, dit is vertaald door chatGPT.
 
 ## 3. Onderzoeken
 
-### 3.1 De Grote ORM Showdown
+### 3.1 Objext relational mappers
+>Disclaimer: Dit is het eerste onderzoek wat ik schreef en is in principe waardeloos. Ik heb het toch toegevoegd voor de totaliteit en om de groei binnen dit semester aan te tonen. Dit onderzoek is niet beoordeeld voor de rubric met semester-voortgang.
 
-Geachte lezer, deze disclaimer schrijf ik om je even voor te bereiden op het onderzoek rapport dat je zo gaat lezen. Ik had namelijk een schandalige portie geen zin om hier aan te beginnen, dus ik heb het maar een beetje opgeleukt. Ik hoop dat je het leuk vindt, en anders heb je pech. 
-
-WELKOM! Welkom bij de grote ORM Showdown. Het onderzoeksrapport waar ORM's de grote hoofdprijs kunnen winnen; Gemplementeerd worden in mijn project. Woehoe! Laten we beginnen!
-
-Eventjes het zakelijke, ik schrijf dit onderzoeksrapport met twee redenen. Ten eerste ben ik vanuit mijn studie verplicht om een aantal van deze onderzoeken uit te voeren. Maar er is een tweede, en misschien wel belangrijkere, reden: ik heb geen duidelijk beeld van wat een ORM is. Hoewel ik weet waar de afkorting voor staat (Object Relational Mapping framework), kan ik niet precies uitleggen wat het doet. Maar dat gaat veranderen, want ik ga het nu voor jullie uitzoeken.
-
-Dus wat is een ORM? Ik ben het internet, en dan met name Wikipedia af gegaan en dit is hoe ik het begrijp. Stel je voor dat je baas op je werk zegt je een tekening moet gaan maken, maar als de ware kleurplaat fanaat die je bent schiet je gelijk in de stress. Je hebt niet eens een potlood vriend, alleen je Stabilo stiften set. Dus daar zit je dan, met een blanco vel papier voor je en zou je elk detail zelf moeten tekenen en inkleuren om het eindresultaat te krijgen. Maar wat als iemand je al een prachtige tekening aanbiedt, waar de lijnen al zijn getrokken en de vlakken al zijn verdeeld? Dan hoef je alleen maar de kleuren in te vullen en voilà, je hebt een geweldige tekening gemaakt! Dat is wat een ORM doet, maar dan met databases en objecten. Het vertaalt de data in de database naar objecten die je kunt gebruiken in je code, zonder dat je zelf SQL-query's hoeft te schrijven. Pittig ziek als je het mij vraagt.
-
-Oké, nu dat duidelijk is, moet ik het gaan toepassen op mijn eigen project. Voordat ik ga bepalen welke ORM het beste bij mijn project past, wil ik eerst wat informatie delen over mijn project. Ik ben bezig met het maken van een react native app voor mijn individuele project en ik gebruik daarvoor een backende API. Deze API is geschreven in TypeScript en maakt gebruik van het ExpressJS-framework. De database die ik gebruik is een SQL Server-database die ik host op Azure. Het is dus belangrijk om te kijken welke ORM's geschikt zijn voor deze combinatie van API en database.
-
-En dan nu voor de contenders. Dit zijn de beste opties die ik op het internet heb gevonden: <br>
-**TypeORM** - Dit is een bekend ORM-framework dat goed werkt met TypeScript en ExpressJS. Het is super gebruiksvriendelijk en ondersteunt verschillende databases, waaronder SQL Server. <br/>
-**Sequelize** - Dit is een sterk ORM-framework dat ondersteuning biedt voor TypeScript en verschillende databases, zoals SQL Server. Het heeft ook geavanceerde functies voor het beheren van de relaties tussen tabellen. <br/>
-**Prisma** - Dit is een modern ORM-framework dat werkt met TypeScript en ExpressJS. Het heeft een intuïtieve API en maakt typeveilige code aan op basis van jouw database schema. <br/>
-
-Mijn keuze is nu gevallen op Prisma, van harte gefelictiteerd. Dit voornamelijk omdat het lekker makkelijk lijkt te werken. Hun API is heel logisch en simpel te begrijpen, dus het schrijven van queries en het werken met de database is een makkie. Het helpt ook dat ze typesafety hebben, zodat ik fouten kan opsporen voor ik de code run. <br/>
-Verder biedt Prisma goede ondersteuning voor zowel TypeScript als SQL-databases, waardoor het goed past bij de technologieën die je voor jouw project hebt gekozen. En hoewel de andere twee ORM's ook goed presteren in deze categorieën, kan Prisma met de ingebouwde codegenerator nog sneller en eenvoudiger te implementeren zijn. <br/>
-Prisma werkt dus ook goed met de Typescript en SQL-server combinatie. Hoewel de andere twee ORM's ook goed presteren in deze categorieën, is Prisma nóg beter vanwege de ingebouwde codegenerator. Hierdoor kan ik nog sneller en makkelijker aan de slag met het implementeren van mijn database als met de andere twee ORM's. Terwijl TypeORM soms omslachtige syntax kan hebben bij het schrijven van complexere queries, kan Sequelize minder veilig zijn door het ontbreken van typesafety. Gelukkig biedt Prisma al deze voordelen zonder de bijbehorende nadelen!
-
-Ik denk dat ik me zo voldoende heb geïnformeerd op het gebied van orm's en voel me comfortabel met mijn keuze. Ik wil de ORM's bedanken voor hun deelname aan De Grote ORM Showdown. Ik wil jou bedanken voor het lezen, dan ga ik nu werk maken van het implementeren van onze winnaar. 
+>[ De grote ORM Showdown! ]()
 
 ### 3.2 Culturele verschillen
 
-Voor iedere software engineer is het belangrijk om culturele verschillen te begrijpen. Dit is omdat je vaak samenwerkt met mensen uit andere landen en culturen. Het is belangrijk om te weten hoe je met deze mensen moet omgaan, zodat je een goede samenwerking kunt hebben. In dit onderzoek zal ik kijken naar de culturele verschillen tussen Nederland en Finland. Finland omdat het groepsproject met de Finse Oulu Universiteit was. 
+>[ Culturele verschillen tussen Nederland en Finland in software engineering ]()
 
-** Wat is cultuur? ** <br/>
-Cultuur is een verzameling van normen en waarden die een groep mensen met elkaar delen. Deze normen en waarden bepalen hoe mensen zich gedragen en hoe ze met elkaar omgaan. Cultuur is dus een belangrijk onderdeel van het leven van mensen. Het bepaalt hoe ze zich gedragen en hoe ze met elkaar omgaan.
+### 3.3 Security
 
-** Wat zijn de culturele verschillen tussen Nederland en Finland? ** <br/>
-Er zijn veel culturele verschillen tussen Nederland en Finland. Op basis van de samenwerking met de Oulu-studenten en de ervaring die ik heb opgedaan van de reis naar Finland aan de start van het project zet ik hier de belangrijkste verschillen op een rij: <br/>
-- Nederlanders zijn directer dan Finnen. Nederlanders zeggen wat ze denken en voelen. Finnen zijn meer terughoudend en zeggen niet altijd wat ze denken en voelen. <br/>
-- Nederlanders zijn meer individualistisch dan Finnen. Nederlanders zijn meer gericht op hun eigen leven en hun eigen doelen. Finnen zijn meer gericht op het grotere geheel en de gemeenschap.<br/>
-- Nederlanders zijn meer open dan Finnen. Nederlanders zijn meer open over hun gevoelens en emoties. Finnen zijn meer gesloten over hun gevoelens en emoties. <br/>
+>[ OWASP Top 10 en JWT Tokens ]()
 
-** Wat zijn de gevolgen van deze culturele verschillen? ** <br/>
-Deze culturele verschillen kunnen leiden tot misverstanden en conflicten. Als je niet weet hoe je met deze verschillen moet omgaan, kan dit leiden tot misverstanden en conflicten. Het is dus belangrijk om te weten hoe je met deze verschillen moet omgaan. <br/>
-Bijvoorbeeld het minder direct zijn van Finnen kan er voor zorgen dat ze niet altijd voor hun eigen visie opkomen tijdens het plannen van de appstructuur en dergelijke. Waar je voor uit moet kijken is dat je niet een plan trekt waar een gedeelte van je projectgroep het niet mee eens is. Dan zul je geen optimaal resultaat behalen. <br/>
-Ook zou het natuurlijk kunnen dat bepaalde dingen waar wij van uit gaan voor hun helemaal niet vanzelfsprekend zijn of andersom, daarom is het belangrijk dat alle plannen duidelijk met elkaar besproken worden. <br/>
+### 3.4 Agile methodes
 
-** Andere culturele verschillen om rekening mee te houden **<br/>
-Op een ietwat ander niveau zijn en praktische verschillen waar je rekening mee moet houden. Zo is het in Finland bijvoorbeeld een uur later dan in Nederland. Dit kan er voor zorgen dat je niet altijd op hetzelfde moment kunt overleggen. <br/>
-Ook is het zo dat de Finse studenten een andere taal spreken dan wij. Dit kan er voor zorgen dat je niet altijd alles goed begrijpt. Uiteraard overleggen we in het Engels, maar het is niet onvoorstelbaar dat er ooit details verloren raken in de vertaling. <br/>
-
-** Hoe ga ik om met deze culturele verschillen? ** <br/>
-Zoals in de alinea's hierboven eigenlijk al beschreven staat is het belangrijkste dat we alles gewoon een tikje extra duidelijk met elkaar bespreken. <br/> Communicatie is key. <br/>
-
-
-### 3.3 Veiligheid in webdevelopment
+>[ Agile Project Management voor het Swipper Project ]()
 
 ## 4. Het groepsproject (Swipper)
+
+Voor het groepsproject in semester drie heb ik samen met mijn groepsgenoten een app gemaakt voor het kopen en verkopen/ter adoptie aanbieden van huisdieren. <br/>
 
 ## 5. Het individuele project (Housekeeper)
 
@@ -131,9 +100,7 @@ Voor mijn database heb ik gekozen voor een SQL-database. Ik heb hiervoor gekozen
 Nu ik eenmaal zo'n ORM heb gebruikt ga ik nooit meer met de hand SQL queries schrijven... Hoop ik... <br/>
 De Database is gehost op Microsoft Azure. 
 
-### 5.3 De uitvoering
-
-### User stories
+### 5.3 User stories
 **Als een user wil ik een "Household" kunnen aanmaken zodat ik een groep kan maken met mijn huisgenoten.** <br/>
 Benodigd voor deze user story: <br/>
 - Een frontend pagina waar een user een account aan kan maken. <br/>
@@ -144,7 +111,7 @@ Benodigd voor deze user story: <br/>
 - Een backend endpoint om een user aan een household toe te voegen. <br/>
 
 **Als een user wil ik een gezamenlijke grocery list bij kunnen houden.** <br/>
-Benodigd voor deze user story: 
+Benodigd voor deze user story:
 - Een frontend pagina waar de user een grocery list te zien krijgt. <br/>
 - Een frontend venster waar de user een item kan toevoegen aan de grocery list kan toevoegen. <br/>
 - Een backend endpoint om een item aan de grocery list toe te voegen. <br/>
@@ -180,9 +147,23 @@ Benodigd voor deze user story: <br/>
 - Een frontend venster om notitie items aan te maken. <br/>
 - Een backend endpoint om notitie items aan te maken. <br/>
 
-### Hier moet de rest komen
+### 5.4 De uitvoering
 
-### 5.4 Gebruikers testen
+#### 5.3.1 Security
+Ik heb mijn eigen login systeem voor de Housekeeper app gemaakt. Dit omdat ik al eerdr met Auth0 heb gewerkt en ik het leuk en nuttig vond om het zelf te maken. <br/>
+De app hashed wachtwoorden tijdens het registreerproces. Deze worden vervolgens opgeslagen in de database. Zo blijven gebruikersgegevens veilig. <br/>
+Voor de security van mijn app heb ik gebruik gemaakt van JWT-tokens. Deze tokens worden gegenereerd door de backend en worden vervolgens opgeslagen in de async storage van de app. 
+Deze tokens worden gebruikt om de gebruiker te identificeren en om te bepalen of de gebruiker toegang heeft tot bepaalde endpoints. 
+De tokens worden gegenereerd met een secret die alleen bekend is bij de backend. <br/>\
+
+#### 5.3.2 CI/CD
+Ik heb CI/CD toegepast op mijn backend. Dit heb ik gedaan met behulp van Github Actions. 
+Github actions runt alle tests uit de "__tests__" folder. Het test framework dat ik gebruik heet Jest. Het is de eerste keer dat ik hier mee werk, maar ik vind het erg intuïtief.<br/>
+De CI/CD-pipeline zorgt ervoor dat de backend automatisch wordt getest en redeployed wanneer er een nieuwe commit wordt ge-pushed naar de master branch. De testen bestaan uit de zelfde stappen als die een gebruiker maakt wanneer hij bepaalde handelingen doet. Denk aan registreren, inloggen, boodschappenlijsten beheren etc. <br/>
+De CI/CD-pipeline zorgt er ook voor dat de backend automatisch wordt redeployed wanneer er een nieuwe commit wordt ge-pushed naar de master branch. De backend wordt redeployed op Microsoft Azure. <br/>
+
+#### 5.3.3 Frontend
+### 5.5 Gebruikers testen
 
 ## 6. Zelfreflectie
 
