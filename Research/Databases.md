@@ -90,6 +90,42 @@ Dit geeft ons een duidelijk beeld van de specifieke behoeften van de Housekeeper
 
 #### Explore User Requirements
 
+**Gebruikersprofielen:**
+
+- Gebruikers van de Housekeeper-applicatie variëren in leeftijd en technische vaardigheden. De applicatie zal altijd ten minste één volwassene per huishouden bedienen, omdat elk huis minimaal één volwassen bewoner heeft.
+
+**Taken:**
+
+- Gebruikers verwachten dat ze gezamenlijke boodschappenlijsten kunnen bijhouden.
+- Ze willen een gedeelde kalender bijhouden voor belangrijke data zoals verjaardagen.
+- Ze willen taken kunnen toewijzen aan andere huisgenoten, zoals het buitenzetten van afval.
+
+**Frequentie van gebruik:**
+
+- Gebruikers zullen de applicatie meerdere keren per dag gebruiken.
+
+**Functionaliteit en gebruiksvriendelijkheid:**
+
+- De applicatie moet eenvoudig genoeg zijn om door gebruikers van alle leeftijden te worden gebruikt.
+
+**Gegevensprivacy:**
+
+- Gebruikers zijn bereid om gegevens te delen met hun huisgenoten.
+
+**Fouttolerantie:**
+
+- Dit aspect is niet specifiek besproken, maar op basis van algemene gebruikersverwachtingen kunnen we aannemen dat gebruikers een hoge fouttolerantie en snelle oplossingen verwachten in het geval van problemen.
+
+### Conclusie
+
+Op basis van deze vereisten, zullen we rekening moeten houden met een databasemodel dat kan voldoen aan:
+
+1. De behoefte aan hoge frequentie updates.
+2. De verwachting dat de database de toewijzing van taken, evenementen en boodschappenlijsten aan specifieke gebruikers zal ondersteunen.
+3. De privacyvereisten van het delen van gegevens alleen tussen huisgenoten.
+4. De noodzaak om eenvoudig en intuïtief te zijn, gezien de brede variatie in de technische vaardigheden van de gebruikers.
+
+Met deze vereisten in gedachten, kunnen we de volgende onderzoeksvragen beter beantwoorden.
 
 ### 2. Wat zijn de verschillende databasetypen en hun voordelen en nadelen?
 
