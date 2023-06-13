@@ -120,6 +120,7 @@ Er zijn echter ook nadelen:
 - Informatieverlies: dit kan een risico vormen bij het overdragen van informatie van het ene systeem naar het andere.
 - Structuurbegrenzingen: de velden in een relationele database hebben beperkingen.
 
+DatabaseTown. (n.d.)/ Relational Database Benefits and Limitations (Advantages & Disadvantages) Op June 13, 2023, van https://databasetown.com/relational-database-benefits-and-limitations/. <br/>
 HiTechWhizz. (2021, April). 6 Advantages and Disadvantages of Relational Database | Limitations & Benefits of Relational Database. Op June 13, 2023, van https://www.hitechwhizz.com/2021/04/6-advantages-and-disadvantages-limitations-benefits-of-relational-database.html
 
 
@@ -135,7 +136,7 @@ Er zijn echter ook nadelen:
 - Adoptie: Objectdatabases zijn niet breed geadopteerd. Hoewel het model al sinds de jaren 80 is vastgesteld, hebben tot nu toe maar heel weinig databasebeheersystemen objectdatabases overgenomen. De community die met het model werkt, is dienovereenkomstig klein. De meeste ontwikkelaars geven daarom de voorkeur aan de meer verspreide, goed gedocumenteerde en zeer ontwikkelde relationele databases.
 - Prestaties: In sommige situaties kan de hoge complexiteit prestatieproblemen veroorzaken. De complexiteit van de objecten betekent dat complexe queries en operaties veel sneller kunnen worden uitgevoerd dan in relationele modellen. Als de bewerkingen echter eenvoudig zijn, moet de complexe structuur nog steeds worden gebruikt, wat resulteert in een verlies van snelheid.
 
-IONOS. (2023, June). Object-oriented database: Explanation + Advantages & Disadvantages. Op June 13, 2023, van https://www.ionos.com/digitalguide/server/know-how/object-oriented-database/####  
+Phoenixnap. (2021, April). Object-oriented database: Explanation + Advantages & Disadvantages. Op June 13, 2023, van https://phoenixnap.com/kb/object-oriented-database
 
 Als laatste ga ik NoSQL databases onderzoeken. NoSQL databases hebben verschillende voordelen:
 - Veelzijdigheid van gegevenstypes: NoSQL-databases hebben het vermogen om een grote verscheidenheid aan gegevenstypes op te slaan, inclusief gestructureerde, semi-gestructureerde en ongestructureerde gegevens. Hierdoor zijn er minder (of geen) transformaties nodig wanneer gegevens worden opgeslagen of opgehaald.
