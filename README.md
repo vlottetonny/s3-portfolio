@@ -173,24 +173,57 @@ Ook gebruik ik sonarcloud om de code quality van mijn backend te meten. Sonarclo
 Voor de Frontend van mijn app heb ik gebruikerstesten gedaan. Ik heb dit gedaan in de expo variant van mijn app. <br/>
 
 #### 5.5.1 Test 1
-**Doel:** Een gebruiker maakt een account aan. <br/>
-**Resultaat:** <br/>
-**Feedback:** <br/>
+**Doel:** Een gebruiker maakt een account aan. 
+
+**Resultaat:** 
+- Geslaagd: 2/2
+- Foutloos: 0/2
+
+**Feedback:** 
+- Er ontbreekt een toetsenbord omlaag knop, de gebruiker kon niet direct de "doorgaan" knop vinden.
+- De registreerknop werd over het hoofd gezien.
+
+**Fixes:**
+- De "Return" knop op het toetsenbord kan een "doorgaan" of "gereed" knop worden.
+- De registreerknop kan een andere kleur krijgen zodat deze meer opvalt.
+
 
 #### 5.5.2 Test 2
-**Doel:** Een gebruiker logt in. <br/>
-**Resultaat:** <br/>
-**Feedback:** <br/>
+**Doel:** Een gebruiker maakt een household aan. 
+
+**Resultaat:** 
+- Geslaagd: 2/2
+- Foutloos: 2/2
+
+**Feedback:** n.v.t.
+
+**Fixes:** n.v.t. 
 
 #### 5.5.3 Test 3
-**Doel:** Een gebruiker maakt een household aan. <br/>
-**Resultaat:** <br/>
-**Feedback:** <br/>
+**Doel:** Een gebruiker logt in.
+
+**Resultaat:**
+- Geslaagd: 2/2
+- Foutloos: 2/2
+
+**Feedback:** n.v.t.
+
+**Fixes:** n.v.t.
 
 #### 5.5.4 Test 4
-**Doel:** Een gebruiker voegt een item toe aan de grocery list. <br/>
-**Resultaat:** <br/>
-**Feedback:** <br/>
+**Doel:** Een gebruiker voegt een item toe aan de grocery list.
+
+**Resultaat:**
+- Geslaagd: 2/2
+- Foutloos: 0/2
+
+**Feedback:** 
+- De tekst "Extra item information" was mogelijk te klein. De gebruiker twijfelde of het input veld verplicht was.
+- De "+" knop was niet responsief genoeg, hij veroorzaakte twijfel bij de gebruiker over wat er zou gebeuren als er op geklikt werd.
+
+**Fixes:**
+- Het input veld kan iets worden ingekort of verkleint zodat het duidelijk is dat het een subtext is en dus eventueel kan worden weg gelaten.
+- De "+" knop kan de border en achtergrond kleuren verwisselen wanneer er op geklikt is, om aan te geven dat de knop nu een andere functie heeft. Dit is duidelijker voor de gebruiker.
 
 ## 6. Zelfreflectie
 
