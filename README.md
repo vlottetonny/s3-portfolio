@@ -173,8 +173,24 @@ Ook gebruik ik sonarcloud om de code quality van mijn backend te meten. Sonarclo
 Voor de Frontend van mijn app heb ik gebruikerstesten gedaan. Ik heb dit gedaan in de expo variant van mijn app. <br/>
 
 #### 5.5.1 Test 1
-**Test 1: Een gebruiker moet een account aan kunnen maken.** <br/>
-**Resultaat: De gebruiker kan een account aanmaken.** <br/>
+**Doel:** Een gebruiker maakt een account aan. <br/>
+**Resultaat:** <br/>
+**Feedback:** <br/>
+
+#### 5.5.2 Test 2
+**Doel:** Een gebruiker logt in. <br/>
+**Resultaat:** <br/>
+**Feedback:** <br/>
+
+#### 5.5.3 Test 3
+**Doel:** Een gebruiker maakt een household aan. <br/>
+**Resultaat:** <br/>
+**Feedback:** <br/>
+
+#### 5.5.4 Test 4
+**Doel:** Een gebruiker voegt een item toe aan de grocery list. <br/>
+**Resultaat:** <br/>
+**Feedback:** <br/>
 
 ## 6. Zelfreflectie
 
