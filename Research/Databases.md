@@ -34,7 +34,7 @@ Het onderzoek zal worden uitgevoerd met behulp van het DOT (Development Oriented
 |---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
 | **(1) Wat zijn de specifieke behoeften van de Housekeeper applicatie op het gebied van databeheer?**                | Stakeholder Analysis, Explore User Requirements |
 | **(2) Wat zijn de verschillende databasetypen en hun voordelen en nadelen?** 	                                      | Literature Study, Competitive analysis          |
-| **(3) Hoe passen de specifieke kenmerken van deze databasetypen bij de behoeften van de Housekeeper applicatie?** 	 | Gap analysis, Domain modelling, Prototyping     |
+| **(3) Hoe passen de specifieke kenmerken van deze databasetypen bij de behoeften van de Housekeeper applicatie?** 	 | Gap analysis, Domain modelling                  |
 
 ### Instrumenten
 
@@ -198,10 +198,45 @@ In het algemeen kunnen we zeggen dat elk type database zijn eigen sterke punten 
 ### 3. Hoe passen de specifieke kenmerken van deze databasetypen bij de behoeften van de Housekeeper applicatie?
 
 #### Gap analysis   
+Deze gap analysis kijkt naar de situatie voor er een database is gekozen. De gap analysis is gebaseerd op de requirements die zijn opgesteld in de explore user requirements fase. <br/>
+
+**Vereiste:** Real-time updates ondersteunen met meerdere keren per dag per gebruiker.<br/>
+**Gap:** Een gap kan ontstaan als de gekozen database geen efficiënte manier biedt om real-time updates af te handelen en ervoor te zorgen dat wijzigingen snel en betrouwbaar worden weergegeven voor alle gebruikers.<br/>
+
+**Vereiste:** Opslaan en beheren van verschillende gegevenstypen, zoals boodschappenlijsten, agenda-items, notities en gebruikersgegevens. <br/>
+**Gap:** Een gap kan ontstaan als de gekozen database niet geschikt is voor het opslaan van verschillende gegevenstypen of niet flexibel genoeg is om aan te passen aan toekomstige gegevensbehoeften.<br/>
+
+**Vereiste:** Mogelijkheid om gegevens veilig op te slaan, inclusief het bewaren van gehashte wachtwoorden. <br/>
+**Gap:** Een gap kan ontstaan als de gekozen database geen ingebouwde mechanismen heeft voor het veilig opslaan van gegevens, zoals hashing van wachtwoorden.<br/>
+
+**Vereiste:** Schaalbaarheid om toekomstige groei en het aantal gebruikers te ondersteunen. <br/>
+**Gap:** Een gap kan ontstaan als de gekozen database beperkingen heeft op het gebied van schaalbaarheid, zoals beperkte capaciteit of moeilijkheden bij het opschalen naar een groter aantal gebruikers.<br/>
+
+**Vereiste:** Voor het semester waarin ik de applicatie ga ontwikkelen wordt er verwacht dat er een ORM gebruikt wordt. <br/>
+**Gap:** Een gap kan ontstaan als de gekozen database geen ondersteuning biedt voor een ORM.<br/>
 
 #### Domain modelling   
-
-#### Prototyping    
+De database moet een aantal dingen kunnen bijhouden. De database moet:
+- huishoudens en leden van huishoudens kunnen bijhouden en aan elkaar linken
+- boodschappenlijsten kunnen bijhouden en aan huishoudens kunnen linken
+- boodschappen kunnen bijhouden en aan boodschappenlijsten kunnen linken
+- agenda-items kunnen bijhouden en aan huishoudens kunnen linken
+- taken kunnen bijhouden en aan huishoudens kunnen linken
+- notities per huishouden kunnen opslaan
 
 ## Conclusie
+Om antwoord te geven op de hoofdvraag van dit onderzoek, voor de Housekeeper applicatie, is een SQL relationele database naar mijn mening de meest geschikte keuze op basis van de volgende redenen:
 
+1. **Structuur**: Het relationele model is zeer geschikt voor het structureren van gegevens zoals boodschappenlijsten, agenda-items, notities, taken en gebruikersinformatie. Dit maakt het eenvoudig om relaties te leggen tussen verschillende entiteiten (zoals huishoudens, leden van huishoudens, boodschappenlijsten, enz.) en om complexe queries uit te voeren om relevante informatie te extraheren.
+
+2. **Beveiliging**: SQL relationele databases bieden sterke beveiligingsfuncties, zoals de mogelijkheid om specifieke tabellen te beschermen met gebruikersnamen en wachtwoorden. Dit is erg belangrijk voor een toepassing als Housekeeper, die gevoelige gebruikersinformatie opslaat.
+
+3. **Flexibiliteit**: Hoewel de NoSQL databases meer flexibiliteit bieden in termen van schaalbaarheid en verschillende gegevenstypes, wordt dit in de Housekeeper applicatie misschien niet volledig benut. De gegevensbehoeften van de Housekeeper applicatie zijn tamelijk gestructureerd en passen goed bij het relationele model.
+
+4. **Schaalbaarheid**: Relationele databases kunnen schalen om een groot aantal gebruikers en transacties te ondersteunen. Bovendien zijn er veel technieken en technologieën beschikbaar om de prestaties en schaalbaarheid van SQL-databases te optimaliseren.
+
+5. **Volwassenheid en ondersteuning**: SQL is een volwassen technologie met een sterke ondersteuning in termen van ontwikkeltools, bibliotheken, en een grote community van ontwikkelaars. Dit kan ontwikkeling en onderhoud eenvoudiger maken.
+
+6. **ORM's**: dit semester is een ORM gebruiken vereist en NoSQL is niet geschikt voor ORM's.
+
+Het is belangrijk op te merken dat dit niet betekent dat andere soorten databases niet geschikt kunnen zijn voor de Housekeeper applicatie. Afhankelijk van de specifieke behoeften en omstandigheden, kunnen objectgeoriënteerde databases of NoSQL databases ook voordelig zijn. Echter, op basis van de huidige eisen en behoeften van de applicatie, lijkt een SQL relationele database de beste keuze.
