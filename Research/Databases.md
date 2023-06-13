@@ -84,6 +84,7 @@ Er zijn echter ook nadelen:
 - Informatieverlies: dit kan een risico vormen bij het overdragen van informatie van het ene systeem naar het andere.
 - Structuurbegrenzingen: de velden in een relationele database hebben beperkingen.
 
+DatabaseTown. (n.d.)/ Relational Database Benefits and Limitations (Advantages & Disadvantages) Op June 13, 2023, van https://databasetown.com/relational-database-benefits-and-limitations/#:~:text=The%20main%20benefits%20of%20using,issue%20of%20speed%20can%20arise. <br/>
 HiTechWhizz. (2021, April). 6 Advantages and Disadvantages of Relational Database | Limitations & Benefits of Relational Database. Op June 13, 2023, van https://www.hitechwhizz.com/2021/04/6-advantages-and-disadvantages-limitations-benefits-of-relational-database.html
 
 
