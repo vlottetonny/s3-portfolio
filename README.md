@@ -57,19 +57,19 @@ Kleine disclaimer, dit is vertaald door chatGPT.
 ### 3.1 Objext relational mappers
 >Disclaimer: Dit is het eerste onderzoek wat ik schreef en is in principe waardeloos. Ik heb het toch toegevoegd voor de totaliteit en om de groei binnen dit semester aan te tonen. Dit onderzoek is niet beoordeeld voor de rubric met semester-voortgang.
 
->[ De grote ORM Showdown! ]()
+>[ De grote ORM Showdown! ](https://github.com/vlottetonny/s3-portfolio/blob/main/Research/ORM's.md)
 
 ### 3.2 Culturele verschillen
 
->[ Culturele verschillen tussen Nederland en Finland in software engineering ]()
+>[ Culturele verschillen tussen Nederland en Finland in software engineering ](https://github.com/vlottetonny/s3-portfolio/blob/main/Research/CulturalDifferences.md)
 
 ### 3.3 Security
 
->[ OWASP Top 10 en JWT Tokens ]()
+>[ OWASP Top 10 en JWT Tokens ](https://github.com/vlottetonny/s3-portfolio/blob/main/Research/Security.md)
 
 ### 3.4 Agile methodes
 
->[ Agile Project Management voor het Swipper Project ]()
+>[ Agile Project Management voor het Swipper Project ](https://github.com/vlottetonny/s3-portfolio/blob/main/Research/Agile.md)
 
 ## 4. Het groepsproject (Swipper)
 
@@ -154,13 +154,14 @@ Ik heb mijn eigen login systeem voor de Housekeeper app gemaakt. Dit omdat ik al
 De app hashed wachtwoorden tijdens het registreerproces. Deze worden vervolgens opgeslagen in de database. Zo blijven gebruikersgegevens veilig. <br/>
 Voor de security van mijn app heb ik gebruik gemaakt van JWT-tokens. Deze tokens worden gegenereerd door de backend en worden vervolgens opgeslagen in de async storage van de app. 
 Deze tokens worden gebruikt om de gebruiker te identificeren en om te bepalen of de gebruiker toegang heeft tot bepaalde endpoints. 
-De tokens worden gegenereerd met een secret die alleen bekend is bij de backend. <br/>\
+De tokens worden gegenereerd met een secret die alleen bekend is bij de backend. <br/>
 
 #### 5.3.2 CI/CD
 Ik heb CI/CD toegepast op mijn backend. Dit heb ik gedaan met behulp van Github Actions. 
 Github actions runt alle tests uit de "__tests__" folder. Het test framework dat ik gebruik heet Jest. Het is de eerste keer dat ik hier mee werk, maar ik vind het erg intuïtief.<br/>
 De CI/CD-pipeline zorgt ervoor dat de backend automatisch wordt getest en redeployed wanneer er een nieuwe commit wordt ge-pushed naar de master branch. De testen bestaan uit de zelfde stappen als die een gebruiker maakt wanneer hij bepaalde handelingen doet. Denk aan registreren, inloggen, boodschappenlijsten beheren etc. <br/>
 De CI/CD-pipeline zorgt er ook voor dat de backend automatisch wordt redeployed wanneer er een nieuwe commit wordt ge-pushed naar de master branch. De backend wordt redeployed op Microsoft Azure. <br/>
+Ook gebruik ik sonarcloud om de code quality van mijn backend te meten. Sonarcloud geeft mij inzicht in de code quality van mijn backend. Zodra er bugs in mijn project zitten die door sonarcloud worden gedetecteerd, ga ik deze direct fixen. <br/>
 
 #### 5.3.3 Frontend
 ### 5.5 Gebruikers testen
