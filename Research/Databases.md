@@ -53,7 +53,43 @@ Het onderzoek zal zich alleen richten op de Housekeeper applicatie en de bevindi
 
 #### Stakeholder Analysis
 
+**Stakeholder:** Eigenaar van de Housekeeper applicatie.
+
+**Doel van de applicatie:** De Housekeeper applicatie is ontworpen om een huishouden te helpen bij het gezamenlijk beheren van hun taken, boodschappenlijsten, agenda's en het achterlaten van notities voor elkaar.
+
+**Functies van de applicatie:**
+- Het bijhouden van gezamenlijke boodschappenlijsten.
+- Het bijhouden van een gezamenlijke agenda of kalender.
+- Het achterlaten van notities voor elkaar.
+- Het opstellen van takenlijsten zoals het uitruimen van de vaatwasser of het buitenzetten van afval.
+
+**Gebruikers van de applicatie:**
+- Gebruikers, die een huishouden kunnen creëren of zich kunnen aansluiten bij een bestaand huishouden.
+
+**Datagebruik en -beheer:**
+- De applicatie moet real-time reflecteren op de updates gemaakt door de gebruikers, dit omvat toevoegen, bijwerken en verwijderen van items van de lijsten, taken, notities en kalender.
+- De login-informatie van de gebruikers wordt gehashed en veilig in de database opgeslagen.
+
+**Data-integriteit en veiligheid:**
+- Hoge mate van integriteit en veiligheid is vereist, met name voor het opslaan van gehashte gebruikerslogin-informatie.
+
+**Prestaties en schaalbaarheid:**
+- De applicatie begint klein, maar er moet ruimte zijn voor mogelijke schaalvergroting in de toekomst.
+
+**Budget en tijd:**
+- Er zijn geen specifieke budget- of tijdsbeperkingen voor de database-gerelateerde aspecten van de applicatie.
+
+#### Conclusie
+Deze analyse suggereert dat de databasemodellen die overwogen moeten worden, in staat moeten zijn om:
+
+1. Real-time updates te ondersteunen.
+2. Veilige opslag van gevoelige gegevens (zoals gehashte wachtwoorden) te garanderen.
+3. Mogelijkheden te bieden voor toekomstige schaalvergroting.
+
+Dit geeft ons een duidelijk beeld van de specifieke behoeften van de Housekeeper applicatie op het gebied van databeheer, die zullen helpen bij het beantwoorden van de volgende onderzoeksvragen.
+
 #### Explore User Requirements
+
 
 ### 2. Wat zijn de verschillende databasetypen en hun voordelen en nadelen?
 
