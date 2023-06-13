@@ -69,12 +69,12 @@ Er zijn veel verschillende soorten databases. Hier zijn enkele van de meest voor
 
 Ik ga nu van de eerste drie typen databases onderzoeken om hun voordelen en nadelen te ontdekken. Ik doe ze niet allemaal omdat ik niet genoeg tijd heb om ze allemaal te vergelijken. In plaats daarvan heb ik ze allemaal vlug bekeken en ga ik in op de types die ik het meest interessant vond. Ik zal beginnen met het zoeken naar informatie over relationele databases.
 Relationele databases hebben verschillende voordelen:
-- Snelheid: hoewel de prestaties van relationele databases niet altijd optimaal zijn, is hun snelheid aanzienlijk hoger vanwege hun eenvoud en de verschillende optimalisaties die in een dergelijke database zijn opgenomen.
-- Beveiliging: bepaalde tabellen in een relationele database kunnen vertrouwelijk worden gemaakt en worden beschermd met een gebruikersnaam en wachtwoord zodat alleen geautoriseerde gebruikers toegang hebben.
-- Eenvoud: in vergelijking met andere typen netwerkmodellen is een relationeel databasemodel veel eenvoudiger.
-- Toegankelijkheid: een relationele database vereist geen specifiek pad voor toegang tot de gegevens.
-- Nauwkeurigheid: alle gegevens die zijn opgeslagen, zijn niet repetitief, wat betekent dat de gegevens niet worden gedupliceerd.
-- Multi-user: meerdere gebruikers kunnen tegelijkertijd toegang hebben tot een relationele database.
+- Snelheid: Ondanks dat relationele databases niet altijd optimale prestaties leveren, zijn ze over het algemeen sneller vanwege hun eenvoud en verschillende optimalisaties die erin zijn opgenomen.
+- Beveiliging: Bepaalde tabellen in een relationele database kunnen vertrouwelijk worden gemaakt en worden beschermd met een gebruikersnaam en wachtwoord, zodat alleen geautoriseerde gebruikers toegang hebben.
+- Eenvoud: In vergelijking met andere soorten netwerkmodellen is een relationeel databasemodel veel eenvoudiger.
+- Toegankelijkheid: Een relationele database kan worden benaderd zonder dat er een specifieke pad nodig is.
+- Nauwkeurigheid: Alle opgeslagen gegevens zijn uniek, wat betekent dat er geen duplicaten zijn.
+- Multi-user: Meerdere gebruikers kunnen tegelijkertijd toegang hebben tot een relationele database.
 
 Er zijn echter ook nadelen:
 - Kosten: de onderliggende kosten van een relationele database kunnen behoorlijk hoog zijn.
