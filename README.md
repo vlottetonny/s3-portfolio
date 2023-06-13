@@ -75,6 +75,10 @@ Kleine disclaimer, dit is vertaald door chatGPT.
 
 Voor het groepsproject in semester drie heb ik samen met mijn groepsgenoten een app gemaakt voor het kopen en verkopen/ter adoptie aanbieden van huisdieren. <br/>
 
+### 4.1 Business processen
+
+Voor het groepsproject moesten we een aantal business processen uitwerken. Deze processen zijn te vinden in de map [Business Processes](
+
 ## 5. Het individuele project (Housekeeper)
 
 Voor mijn individuele project in semester drie heb ik gekozen voor het maken van een app die kan dienen als een groepsplanner voor je huishouden. Het idee is dat je een groep/huishouden aanmaakt met je huisgenoten en dat je dan klusjes en dergelijke kunt toevoegen zodat je huisgenoten een idee hebben van wat er gebeuren moet. Deze taken kunnen dan door de groepsleden worden opgepakt. <br/>
