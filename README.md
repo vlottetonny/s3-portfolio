@@ -25,7 +25,8 @@ Teun Hurkmans, S3-DB01 van Fontys Eindhoven
 - [5. Het individuele project: Housekeeper](#5-het-individuele-project-housekeeper)
   - [5.1 De aanpak](#51-de-aanpak)
   - [5.2 De stackkeuze](#52-de-stackkeuze)
-  - [5.3 De uitvoering](#53-de-uitvoering)
+  - [5.3 User stories](#54-user-stories)
+  - [5.3 De uitvoering](#54-de-uitvoering)
   - [5.4 Gebruikers testen](#54-gebruikers-testen)
 - [6. Zelfreflectie](#6-zelfreflectie)
   - [6.1 Wat heb ik geleerd](#61-wat-heb-ik-geleerd)
@@ -167,8 +168,13 @@ De CI/CD-pipeline zorgt ervoor dat de backend automatisch wordt getest en redepl
 De CI/CD-pipeline zorgt er ook voor dat de backend automatisch wordt redeployed wanneer er een nieuwe commit wordt ge-pushed naar de master branch. De backend wordt redeployed op Microsoft Azure. <br/>
 Ook gebruik ik sonarcloud om de code quality van mijn backend te meten. Sonarcloud geeft mij inzicht in de code quality van mijn backend. Zodra er bugs in mijn project zitten die door sonarcloud worden gedetecteerd, ga ik deze direct fixen. <br/>
 
-#### 5.3.3 Frontend
+#### 5.3.3 
 ### 5.5 Gebruikers testen
+Voor de Frontend van mijn app heb ik gebruikerstesten gedaan. Ik heb dit gedaan in de expo variant van mijn app. <br/>
+
+#### 5.5.1 Test 1
+**Test 1: Een gebruiker moet een account aan kunnen maken.** <br/>
+**Resultaat: De gebruiker kan een account aanmaken.** <br/>
 
 ## 6. Zelfreflectie
 
