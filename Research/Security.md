@@ -11,18 +11,6 @@
   - [Resultaten](#resultaten)
   - [Bronnen](#bronnen)
 
-Hier zijn een paar voorbeelden van hoe JWT-tokens (een soort 'sleutel' die we gebruiken om gebruikers te herkennen) kunnen bijdragen aan deze risico's als ze niet op de juiste manier worden gebruikt:
-**Injection (A1)**: Dit is als iemand slechte data 'injecteert' in jouw systeem, zoals een valse gebruikersnaam. Hoewel dit meestal niet gebeurt met JWT-tokens, kan het wel gebeuren als we niet voorzichtig zijn met hoe we die tokens behandelen.
-
-**Broken Authentication (A2)**: JWT-tokens helpen ons om te bevestigen wie een gebruiker is. Maar als we niet veilig met die tokens omgaan (bijvoorbeeld door ze te verzenden over een verbinding die niet beveiligd is), dan kunnen slechteriken ofzo die tokens misschien stelen en zich voordoen als iemand anders.
-
-**Sensitive Data Exposure (A3)**: Soms kunnen JWT-tokens informatie bevatten die privé moet blijven. Als we die tokens niet goed beveiligen (zoals door ze niet te versleutelen), dan kunnen die privégegevens op straat komen te liggen.
-
-**Broken Access Control (A5):** Als we niet goed controleren of een JWT-token geldig is, dan kan een slechterik misschien een vals of gestolen token gebruiken om toegang te krijgen tot dingen waar hij geen toegang tot zou moeten hebben.
-
-**Using Components with Known Vulnerabilities (A9)**: Als we oude of onveilige software gebruiken om JWT-tokens te maken of te controleren, dan kunnen slechteriken die zwakke plekken misschien misbruiken om dingen te doen die ze niet mogen.
-
-
 ## Inleiding
 
 De Open Web Application Security Project (OWASP) Top 10 is een standaard beveiligingsbenchmark voor webapplicaties. Een van de meest voorkomende beveiligingsrisico's in deze benchmark is de onveilige behandeling van JWT (JSON Web Tokens) bij authenticatieprocedures. In dit onderzoek zal de focus liggen op JWT's in het login systeem van mijn React Native-app, HouseKeeper.
