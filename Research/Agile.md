@@ -35,14 +35,14 @@ Om deze vraag te helpen beantwoorden, is deze opgesplitst in meerdere subvragen:
 
 Het onderzoek zal worden uitgevoerd met behulp van het DOT (Development Oriented Triangulation) framework. Voor de vragen worden de volgende onderzoeksstrategieën gebruikt:
 
-| Onderzoeksvraag                                             | 	Onderzoeksstrategie |
-|-------------------------------------------------------------|---------------------|
-| **(1)** Wat is Agile Project Management?	                   | internet-onderzoek  |
-| **(2)** Waarom is Agile Project Management belangrijk? 	    | internet-onderzoek  |
-| **(3)** Welke Agile Methodologieën zijn er?                 | internet-onderzoek  |
-| **(4)** Wat zijn de voordelen van Agile Project Management? | internet-onderzoek  |
-| **(5)** Wat zijn de uitdagingen van Agile Project Management?| internet-onderzoek  |
-| **(6)** Hoe kun je Agile Project Management implementeren bij het Swipper project? | Internet-onderzoek en praktijktesten  |
+| Onderzoeksvraag                                             | 	Onderzoeksstrategie            |
+|-------------------------------------------------------------|---------------------------------|
+| **(1)** Wat is Agile Project Management?	                   | literature study                |
+| **(2)** Waarom is Agile Project Management belangrijk? 	    | literature study                |
+| **(3)** Welke Agile Methodologieën zijn er?                 | literature study                |
+| **(4)** Wat zijn de voordelen van Agile Project Management? | literature study                |
+| **(5)** Wat zijn de uitdagingen van Agile Project Management?| literature study                |
+| **(6)** Hoe kun je Agile Project Management implementeren bij het Swipper project? | literature study en prototyping |
 
 ### Instrumenten
 
