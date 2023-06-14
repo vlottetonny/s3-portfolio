@@ -74,7 +74,7 @@ Kleine disclaimer, dit is vertaald door chatGPT.
 
 ### 3.5 Databases
 
->[ Databases ](https://github.com/vlottetonny/s3-portfolio/blob/main/Research/Databases.md)
+>[ Database keuze Housekeeper ](https://github.com/vlottetonny/s3-portfolio/blob/main/Research/Databases.md)
 
 ## 4. Het groepsproject (Swipper)
 
