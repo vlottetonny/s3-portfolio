@@ -23,4 +23,4 @@ Het nieuwe systeem volgt ook de voorraad in real-time, waardoor we altijd een na
 
 ## Conclusie
 
-De implementatie van het nieuwe systeem heeft een aanzienlijke verbetering gebracht in de efficiëntie van het magazijnprocessen. Niet alleen zijn de fouten aanzienlijk verminderd, maar het bedrijf is ook in staat om onze producten sneller op te slaan en aan klanten te leveren. Het vermogen om de voorraad in real-time te volgen, biedt ook de mogelijkheid om wat proactiever te zijn in het voorraadbeheer, wat uiteindelijk zal leiden tot betere klanttevredenheid.
+De implementatie van het nieuwe systeem brengt een aanzienlijke verbetering in de efficiëntie van het magazijnprocessen. Niet alleen zijn de kansen op fouten aanzienlijk verminderd, maar het bedrijf is ook in staat om de producten sneller op te slaan en aan klanten te leveren. Het vermogen om de voorraad in real-time te volgen, biedt ook de mogelijkheid om wat proactiever te zijn in het voorraadbeheer, wat uiteindelijk zal leiden tot betere klanttevredenheid.
