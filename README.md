@@ -72,6 +72,10 @@ Kleine disclaimer, dit is vertaald door chatGPT.
 
 >[ Agile Project Management voor het Swipper Project ](https://github.com/vlottetonny/s3-portfolio/blob/main/Research/Agile.md)
 
+### 3.5 Databases
+
+>[ Databases ](https://github.com/vlottetonny/s3-portfolio/blob/main/Research/Databases.md)
+
 ## 4. Het groepsproject (Swipper)
 
 Voor het groepsproject in semester drie heb ik samen met mijn groepsgenoten een app gemaakt voor het kopen en verkopen/ter adoptie aanbieden van huisdieren. <br/>
