@@ -1,4 +1,4 @@
-# Business Process Analysis››: Wol.com
+# Business Process Analysis: Wol.com
 
 ## Context
 
