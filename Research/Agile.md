@@ -116,7 +116,7 @@ Daarom werken we voor het Swipper project met een scrum bord, sprints van 2 weke
 
 ## Bronnen
 
-https://www.agilealliance.org/agile101/ <br/>
-https://www.scrum.org/resources/what-is-scrum <br/>
-https://kanbanize.com/kanban-resources/getting-started/what-is-kanban/ <br/>
-https://www.aha.io/roadmapping/guide/agile-development/what-are-agile-development-methodologies
+Agile Alliance. (n.d.). Agile 101. Retrieved June 14, 2023, from https://www.agilealliance.org/agile101/ <br/>
+Scrum.org. (n.d.). What is Scrum? Retrieved June 14, 2023, from https://www.scrum.org/resources/what-is-scrum <br/>
+Kanbanize. (n.d.). What Is Kanban? Explained in 10 Minutes. Retrieved June 14, 2023, from https://kanbanize.com/kanban-resources/getting-started/what-is-kanban/ <br/>
+Aha! software. (n.d.). 12 Most Common Agile Development Methodologies. Retrieved June 14, 2023, from https://www.aha.io/roadmapping/guide/agile-development/what-are-agile-development-methodologies
