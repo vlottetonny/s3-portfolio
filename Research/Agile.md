@@ -73,6 +73,40 @@ Er zijn verschillende Agile-methodologieën die kunnen worden gebruikt in Agile 
 
 - Extreme Programming (XP) legt de nadruk op technische uitmuntendheid en het betrekken van belanghebbenden bij het ontwikkelproces. Het omvat praktijken zoals pair programming, test-driven development en het organiseren van kleine releases.
 
+We kunnen nu deze methodologieën vergelijken met elkaar:
+- **Planningsstructuur**
+    - Scrum verdeelt projecten in sprints van één tot vier weken, waarbij elke sprint een volledige projectcyclus heeft van plannen tot beoordelen.
+    - Kanban heeft geen specifieke tijdboxen of sprints. Het werk stroomt continu door het systeem.
+    - XP gebruikt iteraties zoals Scrum, maar ze zijn typisch één tot twee weken lang.
+
+- **Rollen**
+    - Scrum heeft specifieke rollen, zoals de Scrum Master en de Product Owner.
+    - Kanban heeft geen gedefinieerde rollen. Het werk wordt gedaan door het team als geheel.
+    - XP heeft rollen, maar niet zo formeel gedefinieerd als Scrum. De focus ligt meer op de vaardigheden die nodig zijn voor de taken, zoals ontwikkelaar, tester, tracker, en coach.
+
+- **Verandering**
+    - Scrum verwelkomt verandering, maar meestal gebeurt dit tussen sprints tijdens de sprintplanning.
+    - Kanban is ontworpen om veranderingen op elk moment te accommoderen, omdat er geen vastgestelde sprints zijn.
+    - XP verwelkomt veranderingen door de hele iteratie.
+
+- **Kwaliteitscontrole**
+    - Scrum vereist dat aan het einde van elke sprint een potentieel leverbaar product wordt opgeleverd.
+    - Kanban heeft geen specifieke vereisten voor het opleveren van een product, maar de kwaliteitscontrole is ingebouwd in het proces door de beperking van het werk in uitvoering.
+    - XP legt een sterke nadruk op technische uitmuntendheid en kwaliteit. Er zijn strikte praktijken zoals test-driven development en pair programming.
+      Zeker, ik kan nog een aantal vergelijkingspunten toevoegen:
+
+- **Feedbackloops**
+  - Scrum heeft een formeel feedbackmechanisme na elke sprint in de vorm van de Sprint Retrospective. Dit zorgt voor continue verbetering.
+  - In Kanban worden feedbackloops gerealiseerd door het beperken van work-in-progress (WIP). Door beperking van WIP worden bottlenecks zichtbaar, waardoor het team snel kan reageren en het proces verbeteren.
+  - XP heeft veel verschillende feedbackmechanismen. De belangrijkste zijn Test-Driven Development (TDD), Pair Programming, en Continuous Integration. Dit zorgt voor continue kwaliteitscontrole en -verbetering.
+
+- **Klantbetrokkenheid**
+  - Scrum heeft de rol van Product Owner, die verantwoordelijk is voor de communicatie met de klant of belanghebbende en die de prioriteiten van de taken beheert.
+  - Kanban heeft geen specifieke rol voor klantbetrokkenheid, maar het bord is transparant voor alle belanghebbenden, inclusief klanten.
+  - XP eist een voortdurende klantbetrokkenheid. De klant is een deel van het team en is verantwoordelijk voor het definiëren van gebruikersverhalen en het beoordelen van de voltooide taken.
+
+Ik hoop dat dit helpt om een nog vollediger beeld te krijgen van deze drie Agile-methodologieën. Het is belangrijk om te benadrukken dat elke methodologie zijn eigen sterktes en zwaktes heeft en dat het team de methodologie moet kiezen die het beste past bij hun specifieke context en behoeften.
+Dit zijn slechts enkele van de vele verschillen en overeenkomsten tussen deze methodologieën. Het belangrijkste is dat teams de methodologie kiezen of aanpassen die het beste bij hun behoeften past.
 ### Wat zijn de voordelen van Agile Project Management?
 
 Agile Project Management heeft verschillende voordelen:
@@ -108,6 +142,18 @@ Om Agile Project Management goed te implementeren bij het Swipper project gaan w
 - Aan het einde van elke sprint zullen we ook een sprint retrospective doen. Hierin zullen we bespreken wat er goed ging en wat er beter kan. <br/>
 - We zullen werken met een product backlog. Hierin zullen we de taken die we nog moeten doen bijhouden. <br/>
 - We zullen werken met een sprint backlog. Hierin zullen we de taken die we in de sprint willen afronden bijhouden. <br/>
+
+## Bewijs van implementatie
+Dit is de burndown chart van ons groepsproject terwijl we in youtrack werkte:
+![burndownYoutrack.png](..%2FImages%2FburndownYoutrack.png) <br/>
+Wat we niet door hadden tijdens het gebruik is dat iets pas in de chart werd weergegeven als het uit "to verify" was. Daardoor geeft de chart niet duidelijk aan wanneer dingen klaar waren.
+
+Hier kun je een user story zien die we in youtrack hebben aangemaakt:   
+![youtrackUserstory.png](..%2FImages%2FyoutrackUserstory.png)
+
+Toen we later geswitched zijn naar excel is dit hoe dat er uit zag: <br/>
+![excelsprint.png](..%2FImages%2Fexcelsprint.png)
+
 
 ## Conclusie
 
