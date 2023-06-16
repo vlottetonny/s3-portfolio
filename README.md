@@ -107,7 +107,12 @@ De backend is een REST API die CI/CD heeft met behulp van Github Actions. De API
 #### 5.2.3 Database
 Voor mijn database heb ik gekozen voor een SQL-database. Ik heb hiervoor gekozen omdat ik hier al ervaring mee had en van eerdere projecten, maar ook omdat we dit semester gebruik moeten maken van een ORM en dus een relational database een vereiste is. <br/>
 Nu ik eenmaal zo'n ORM heb gebruikt ga ik nooit meer met de hand SQL queries schrijven... Hoop ik... <br/>
-De Database is gehost op Microsoft Azure. 
+De Database is gehost op Microsoft Azure.
+
+#### 5.2.4 C4 Model
+Hier zijn laag 1 en 2 van het c4 model voor mijn applicatie: <br/>
+![c4laag1.png](Images%2Fc4laag1.png) <br/>
+![c4laag2.png](Images%2Fc4laag2.png) 
 
 ### 5.3 User stories
 **Als een user wil ik een "Household" kunnen aanmaken zodat ik een groep kan maken met mijn huisgenoten.** <br/>
