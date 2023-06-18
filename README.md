@@ -84,6 +84,29 @@ Voor het groepsproject in semester drie heb ik samen met mijn groepsgenoten een 
 
 Voor het groepsproject moesten we een aantal business processen uitwerken. Deze processen zijn te vinden in de map [Business Processes](
 
+### 4.2 Ethiek in programmeren
+In dit hoofdstuk ga ik in op de ethische aspecten van het Swipper project. Ik heb de vragen beantwoord die in de uitleg pagina op Canvas stonden. <br/>
+#### 1. Wat is ethiek in software engineering?
+   Ethiek in software engineering gaat over de juiste manier van werken voor software engineers. Ze moeten rekening houden met dingen zoals privacy, eerlijk zijn en respect hebben voor anderen. Ook moeten ze software maken die iedereen kan gebruiken.
+
+#### 2. Waarom is ethiek belangrijk in software engineering?
+   Ethiek is belangrijk omdat software veel invloed kan hebben op mensen en de maatschappij. Als software niet goed of oneerlijk wordt gebruikt, kan dit problemen veroorzaken, zoals schade aan mensen of inbreuk op de privacy.
+
+#### 3. Wat moet je doen als software engineer om ethische aspecten in je werk aan te pakken?
+   Als software engineer moet je nadenken over ethiek bij alles wat je doet. Je moet denken aan de gevolgen van de software die je maakt. Je moet ook proberen te voorkomen dat jouw software mensen op een negatieve manier beïnvloedt.
+
+#### 4. Hoe weet je dat je ethische overwegingen overeenkomen met die van andere software engineers?
+   Je kunt met collega's praten over ethiek, ethiektrainingen volgen en lezen over wat de juiste manier van werken is in jouw vakgebied. Dit helpt je te begrijpen wat anderen in jouw vakgebied denken en hoe je zelf ethisch kunt werken.
+
+#### 5. Welke ethische aspecten spelen een rol in jouw project?
+   In mijn project spelen verschillende ethische aspecten een rol. Eén daarvan is privacy, omdat gebruikers persoonlijke informatie en taken in de app zullen delen. Daarnaast is het belangrijk dat de app eerlijk en nuttig is voor alle leden van het huishouden, ongeacht hun technologische vaardigheden. Tot slot moeten we ervoor zorgen dat de app niet misbruikt kan worden, bijvoorbeeld door pesten of het delen van ongepaste inhoud.
+
+#### 6. Verwacht je ethische conflicten veroorzaakt door je software? Welke?
+   Mogelijke ethische conflicten kunnen ontstaan als de privacy van gebruikers niet goed wordt beschermd, wat zou kunnen leiden tot ongewenste toegang tot persoonlijke informatie. Daarnaast, als de app wordt misbruikt voor pesten of het delen van ongepaste inhoud, kan dit ook een probleem zijn.
+
+#### 7. Kun je iets doen om deze conflicten te vermijden of te minimaliseren?
+   Ja, ik kan verschillende stappen nemen om deze mogelijke conflicten te voorkomen. Om de privacy van gebruikers te beschermen, kan ik sterke beveiligingsmaatregelen implementeren en duidelijke richtlijnen opstellen voor wat wel en niet kan worden gedeeld in de app. Om de app toegankelijk te maken voor iedereen, kan ik het ontwerp en de gebruiksvriendelijkheid testen bij mensen met verschillende technologische vaardigheden. En om misbruik te voorkomen, kan ik moderatie tools toevoegen en regels opstellen voor gedrag in de app.
+
 ## 5. Het individuele project (Housekeeper)
 
 Voor mijn individuele project in semester drie heb ik gekozen voor het maken van een app die kan dienen als een groepsplanner voor je huishouden. Het idee is dat je een groep/huishouden aanmaakt met je huisgenoten en dat je dan klusjes en dergelijke kunt toevoegen zodat je huisgenoten een idee hebben van wat er gebeuren moet. Deze taken kunnen dan door de groepsleden worden opgepakt. <br/>
